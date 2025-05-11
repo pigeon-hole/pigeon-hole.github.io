@@ -2712,10 +2712,12 @@ input, select, textarea {
 }
 
 .two-column-newspaper h2 {
-  font-family: 'Tagesschrift', serif;
-  font-size: 2em;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.25em;
   margin-bottom: 0.2em;
-  font-weight: bold;
+  font-weight: 700;
+  line-height: 1.2;
+  font-weight: 700;
 }
 
 .byline {
