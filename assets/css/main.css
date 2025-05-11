@@ -82,6 +82,14 @@ input, select, textarea {
   margin-bottom: 1em;
 }
 
+#logo span {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #666;
+}
+
 /* Basic */
 
 	@-ms-viewport {
