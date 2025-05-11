@@ -2618,6 +2618,7 @@ input, select, textarea {
 			}
 
 			#banner-wrapper {
+				margin-bottom: 5em;
 				padding: 0 15px 0 15px;
 			}
 
