@@ -1898,11 +1898,11 @@ input, select, textarea {
 				}
 
 				.widget.contact ul li a:hover {
-					background: #b4a7d6;
+					background: #444444;
 				}
 
 				.widget.contact ul li a:active {
-					background: #666666;
+					background: #b4a7d6;
 				}
 
 /* Wrappers */
