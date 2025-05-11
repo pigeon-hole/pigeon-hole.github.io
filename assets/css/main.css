@@ -2714,6 +2714,7 @@ input, select, textarea {
   font-family: 'Tagesschrift', serif;
   font-size: 2em;
   margin-bottom: 0.2em;
+  font-weight: bold;
 }
 
 .byline {
