@@ -2723,6 +2723,9 @@ input, select, textarea {
   line-height: 1.1 !important;
 }
 
+.two-column-newspaper .article-body p {
+	margin-bottom: 0.5em;
+
 .two-column-newspaper h2 {
   font-family: 'Bevan', serif;
   font-size: 2.25em;
