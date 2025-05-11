@@ -2627,6 +2627,7 @@ input, select, textarea {
 			}
 
 			#main-wrapper, #footer-wrapper {
+				margin-top: 3em;
 				padding: 40px 30px 40px 30px;
 			}
 
