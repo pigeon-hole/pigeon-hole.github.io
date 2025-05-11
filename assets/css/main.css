@@ -2618,7 +2618,7 @@ input, select, textarea {
 			}
 
 			#banner-wrapper {
-				margin-bottom: 100px;
+				margin-bottom: 5em;
 				padding: 0 15px 0 15px;
 			}
 
@@ -2646,6 +2646,7 @@ input, select, textarea {
 			#banner {
 				text-align: center;
 				padding: 15px 15px 15px 15px;
+				padding-bottom: 4em;
 				margin: 0 auto !important;
 			}
 
