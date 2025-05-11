@@ -2737,3 +2737,8 @@ input, select, textarea {
   margin-bottom: 1em;
   color: #666;
 }
+
+h2 {
+  font-family: 'Bevan', serif !important;
+}
+
