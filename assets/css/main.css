@@ -76,6 +76,12 @@ input, select, textarea {
   margin-top: 3em;
 }
 
+.article-body p {
+  text-indent: 2em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
 /* Basic */
 
 	@-ms-viewport {
