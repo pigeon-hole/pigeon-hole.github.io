@@ -1902,7 +1902,7 @@ input, select, textarea {
 				}
 
 				.widget.contact ul li a:active {
-					background: #b4a7d6;
+					background: #666666;
 				}
 
 /* Wrappers */
@@ -1986,7 +1986,7 @@ input, select, textarea {
 					transition: background-color .25s ease-in-out;
 					font-weight: 800;
 					letter-spacing: 0.025em;
-					color: #696969;
+					color: #b4a7d6;
 					text-decoration: none;
 					border-radius: 6px;
 					padding: 0.5em 1em 0.5em 1em;
