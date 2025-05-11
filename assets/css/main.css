@@ -2690,3 +2690,25 @@ input, select, textarea {
 			}
 
 	}
+
+.two-column-newspaper .article-body {
+  column-count: 2;
+  column-gap: 2em;
+  text-align: justify;
+  font-family: Georgia, serif;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.two-column-newspaper h2 {
+  font-family: 'Tagesschrift', serif;
+  font-size: 2em;
+  margin-bottom: 0.2em;
+}
+
+.byline {
+  font-style: italic;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+  color: #666;
+}
