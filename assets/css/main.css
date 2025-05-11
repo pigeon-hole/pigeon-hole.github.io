@@ -2075,8 +2075,6 @@ input, select, textarea {
 	#banner {
 		position: relative;
 		padding: 4.5em;
-		background-color: #1a1a1a;
-		color: #ffffff;
 	}
 
 		#banner h2 {
@@ -2262,6 +2260,8 @@ input, select, textarea {
 
 			#header {
 				margin: 0 auto;
+				background-color: #1a1a1a;
+				color: #ffffff;
 			}
 
 		/* Logo */
