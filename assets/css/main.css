@@ -76,6 +76,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 #main-wrapper {
   margin-top: 3em;
 }
