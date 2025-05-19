@@ -131,3 +131,28 @@
 
 	</body>
 </html>
+
+
+00:49 19/05
+
+<style>
+	.headline-grid {
+		column-count: 3;      /* number of vertical columns */
+		column-gap: 10px;      /* spacing between those columns */
+		padding-left: 25px;
+		padding-right: 10px;
+	}
+	.headline-box {
+		display: inline‑block; 
+		width: 95%;          /* fill the column’s width */
+		margin: 0 0 1em 0;    
+		break-inside: avoid;  /* prevent splitting a box across columns */
+		background: #f5f2eb;
+		padding: 1em;
+		border: 2px solid #ccc;
+		box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+	}
+	.headline-box h2 {
+		margin: 0;
+	}
+</style>

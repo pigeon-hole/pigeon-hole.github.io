@@ -2726,6 +2726,17 @@ html {
 
 	}
 
+.page-title {
+  /* ensure it comes before your headlines in the DOM */
+  text-align: center;        /* center the text */
+  margin-bottom: 2rem;       /* space below so it sits above the next content */
+}
+
+.page-title h1 {
+  margin: 0;                 /* remove default h1 top/bottom margins */
+  display: inline-block;     /* shrink‐wrap the heading for perfect centering */
+}
+
 .two-column-newspaper .article-body {
   column-count: 2;
   column-gap: 2em;
