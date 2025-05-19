@@ -21,31 +21,26 @@
 		<link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=New+Rocker&family=Notable&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=New+Rocker&family=Notable&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap" rel="stylesheet">
+		<style>
+			.headline-box {
+				background: #f2f2f2;
+				padding: 1em;
+				border: 2px solid #ccc;
+				margin: 0em;
+				box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+			}
+			  .headline-grid {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0em 1em;
+				justify-content: flex-start;
+				align-items: flex-start;
+			}
 
-
-<style>
-	.headline-grid {
-		column-count: 3;      /* number of vertical columns */
-		column-gap: 10px;      /* spacing between those columns */
-		padding-left: 25px;
-		padding-right: 10px;
-	}
-	.headline-box {
-		display: inline‑block; 
-		width: 95%;          /* fill the column’s width */
-		margin: 0 0 1em 0;    
-		break-inside: avoid;  /* prevent splitting a box across columns */
-		background: #f5f2eb;
-		padding: 1em;
-		border: 2px solid #ccc;
-		box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-	}
-	.headline-box h2 {
-		margin: 0;
-	}
-</style>
+			.headline-box h2 {
+				margin: 0;
+			}
+		</style>
 	</head>
 	<body class="is-preload homepage">
 		<div id="page-wrapper">
@@ -94,52 +89,31 @@
 				</div>
 
 <div class="headline-grid">
-	<div class="headline-box">
+	<div class="headline-box" style="max-width: 55%; margin: 0em 0em 0.5em 1.5em;">
 		<h2 class="headline" 
 			style="font-family: 'EB Garamond', serif; font-weight: 800;">
 			WORLD THANKS CINEMA, GLOBAL WARMING DECLARED 'OVER'
 		</h2>
 	</div>
 	
-	<div class="headline-box">
+	<div class="headline-box" style="max-width: 38%; margin: 0em 1em 1em 1em;">
 		<h2 class="headline" 
-			style="font-family: 'Shippori Mincho B1', serif; font-weight: 800;">
-			CINEMA ASTONISHES IN SERVICE INNOVATION
+			style="font-family: 'Bevan', serif; font-weight: 100;">
+			CINEMA BREAKS GROUND IN SERVICE INNOVATION
 		</h2>
 	</div>
 
-	<div class="headline-box">
+	<div class="headline-box" style="max-width: 50%; margin: -2em 1em 1em 1.5em;">
 		<h2 class="headline" 
 			style="font-family: 'DM Serif Display', serif; font-weight: 800; letter-spacing: 1px;">
-			THE LIGHT DIMS IN CAMBRIDGE
+			THE LIGHT DIMS<br>IN CAMBRIDGE
 		</h2>
 	</div>
 	
-	<div class="headline-box">
+	<div class="headline-box" style="max-width: 50%; margin: -2em 1em 1em -0.6em;">
 		<h2 class="headline"
-			style="font-family: 'Neuton', serif; font-weight: 600; font-size: 30;">
-			CRISIS AT CINEMA AS SODA SALES PLUMMET
-		</h2>
-	</div>
-	
-	<div class="headline-box">
-		<h2 class="headline"
-			style="font-family: 'EB Garamond', serif; font-weight: 800;">
-			MISSING THE POINT AWARD
-		</h2>
-	</div>
-	
-	<div class="headline-box">
-		<h2 class="headline"
-			style="font-family: 'Shippori Mincho B1', serif; font-weight: 800; font-size: 1.8em;">
-			NEW TECHNOLOGY BRINGS HOPE TO TIRED WORKERS
-		</h2>
-	</div>
-	
-	<div class="headline-box">
-		<h2 class="headline"
-			style="font-family: 'Gupter', serif; font-weight: 700;">
-			CHAOS AS TICKET SCANNER STRUGGLES
+			style="font-family: 'Neuton', serif; font-weight: 800; font-size: 30px; margin: -0.25em 0 -0.05em 0em;">
+			CRISIS AT CINEMA<br>AS SODA SALES<br>PLUMMET
 		</h2>
 	</div>
 </div>

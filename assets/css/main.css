@@ -2709,7 +2709,7 @@ html {
 			#footer section {
 				border-bottom: solid 1px #ccc;
 				padding-bottom: 3em;
-				margin-bottom: 1em !important;
+				margin-bottom: 1em 
 			}
 
 			#copyright {
@@ -2724,7 +2724,7 @@ html {
   text-align: justify;
   font-family: Lora, serif;
   font-size: 1em;
-  line-height: 1.1 !important;
+  line-height: 1.1 
 }
 
 .two-column-newspaper h2 {
@@ -2743,6 +2743,16 @@ html {
 }
 
 h2 {
-  font-family: 'Bevan', serif !important;
+  font-family: 'Bevan', serif 
+}
+
+.headline {
+  font-family: 'Bevan', serif;
+  font-size: 2em;
+  font-weight: 100;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  color: #222;
 }
 
