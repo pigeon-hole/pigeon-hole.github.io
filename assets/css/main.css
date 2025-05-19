@@ -1969,12 +1969,20 @@ html {
 			border-radius: 6px;
 			font-family: 'Tagesschrift', san-serif;
 			font-weight: 400;
-			padding: 0.25em 0.2em 0.25em 0.2em;
+			padding: 0.35em 0.2em;
 			font-size: 3.25em;
 			letter-spacing: 0.05em;
 			display: inline-block;
 			vertical-align: middle;
 		}
+		
+		/* in assets/css/main.css, under the Logo section */
+		#logo h1 a {
+			display: inline-block;   /* ensure positioning works */
+			position: relative;
+			top: -0.05em;             /* pull the text up by 0.2em */
+}
+
 
 		#logo span {
 			font-weight: 800;
@@ -2667,7 +2675,7 @@ html {
 			}
 
 			#logo span {
-				line-height: 4em;
+				line-height: 3em;
 			}
 
 		/* Banner */
